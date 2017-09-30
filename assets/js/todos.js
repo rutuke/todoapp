@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //checking off todos by clicking
 $("ul").on("click", "li", function(){
     $(this).toggleClass("completed");
