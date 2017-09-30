@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: 'Roboto', sans-serif;
     background: #5C258D;  /* fallback for old browsers */
@@ -83,4 +84,10 @@ span {
 li:hover span {
     width: 40px;
     opacity: 1.0;
+=======
+#container {
+    width: 360px;
+    margin: 0 auto;
+    border: 2px solid gray;
+>>>>>>> db8eaaf624152d9e74c483d31ea916abd80319d8
 }

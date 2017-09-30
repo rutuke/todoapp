@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //checking off todos by clicking
 $("ul").on("click", "li", function(){
     $(this).toggleClass("completed");
@@ -27,3 +28,17 @@ $(".fa-pencil-square-o").click(function(){
     $("input[type='text'").fadeToggle();
 });
 
+=======
+//checking off todos by clicking
+$("li").click(function(){
+    // if li is gray turn it black, else turn gray
+    if($(this).css("color") === "gray"){
+        $(this).css("color", "gray");
+    }
+    $(this).css({
+        color: "gray",
+        textDecoration: "line-through"
+    });
+});
+
+>>>>>>> db8eaaf624152d9e74c483d31ea916abd80319d8
